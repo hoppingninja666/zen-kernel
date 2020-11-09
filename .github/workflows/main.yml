@@ -22,4 +22,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: kernel-src
-          path: ../zen-kernel-git.tar.xz
+          path: /home/runner/work/zen-kernel/zen-kernel-git.tar.xz
