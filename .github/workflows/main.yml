@@ -17,7 +17,7 @@ jobs:
       - name: zip it
         id: zip-it
         run: |
-          tar -cJ .  -f ../zen-kernel-git.tar.xz
+          tar -cv .  -f ../zen-kernel-git.tar.xz
       - name: Upload sources
         uses: actions/upload-artifact@v2
         with:
